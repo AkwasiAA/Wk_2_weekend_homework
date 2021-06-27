@@ -2,4 +2,6 @@ import unittest
 from classes.room import *
 
 class TestRoom(unittest.TestCase):
-    pass
+
+    def SetUp(self):
+        self.song

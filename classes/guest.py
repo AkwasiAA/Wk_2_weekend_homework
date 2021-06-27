@@ -1,5 +1,7 @@
 class Guest:
 
-    def __init__(self, name, room_booked):
+    def __init__(self, name, room_number_booked):
         self.name = name
-        self.room_booked = room_booked
+        self.room_number_booked = room_number_booked
+
+    

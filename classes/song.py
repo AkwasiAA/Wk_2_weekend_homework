@@ -1,7 +1,7 @@
 class Song:
 
-    def __init__(self, artist, title, genre):
-        self.artist = artist
+    def __init__(self, title, artist, genre):
         self.title = title
+        self.artist = artist
         self.genre = genre 
 
