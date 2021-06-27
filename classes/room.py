@@ -4,7 +4,6 @@ class Room:
         self.room_number = room_number
         self.capacity = capacity
 
-        self.price = price
         self.guestlist = []
         self.playlist = []
 
