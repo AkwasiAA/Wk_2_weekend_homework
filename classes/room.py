@@ -7,6 +7,11 @@ class Room:
         self.guestlist = []
         self.playlist = []
 
+        # self.room_1 = Room("Room 1", 10)
+        # self.room_2 = Room("Room 2", 20)
+        # self.room_3 = Room("Room 3", 25)
+        # self.room_4 = Room("Room 4", 30)
+
     def check_in_guest(self, guest):
         if len(self.guestlist) < self.capacity:
             self.guestlist.append(guest)
